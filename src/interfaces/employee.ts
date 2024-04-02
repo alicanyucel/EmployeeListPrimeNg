@@ -17,6 +17,6 @@ export interface EmployeeRequest {
     sortField: string | string[];
     sortOrder: number;
     filter?: {
-        firstName: string
+    firstName: string
     }
 }
